@@ -12,6 +12,16 @@
 		2DD164372BE11BE800855822 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164362BE11BE800855822 /* Item.swift */; };
 		2DD164392BE11BE900855822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD164382BE11BE900855822 /* Assets.xcassets */; };
 		2DD1643D2BE11BE900855822 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1643C2BE11BE900855822 /* Preview Assets.xcassets */; };
+		2DD164542BE123D000855822 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164532BE123D000855822 /* NewsListView.swift */; };
+		2DD164562BE1249000855822 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164552BE1249000855822 /* NewsListViewModel.swift */; };
+		2DD164582BE1249E00855822 /* NewsUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164572BE1249E00855822 /* NewsUsecase.swift */; };
+		2DD1645A2BE1254200855822 /* NewsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164592BE1254200855822 /* NewsEntity.swift */; };
+		2DD1645C2BE1255E00855822 /* NewsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1645B2BE1255E00855822 /* NewsEndpoint.swift */; };
+		2DD1645E2BE1258700855822 /* NewsListRepoImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1645D2BE1258700855822 /* NewsListRepoImp.swift */; };
+		2DD164602BE1259100855822 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1645F2BE1259100855822 /* News.swift */; };
+		2DD164622BE125A800855822 /* NewsRespositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164612BE125A800855822 /* NewsRespositoryProtocol.swift */; };
+		2DD164642BE125C900855822 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164632BE125C900855822 /* NetworkClient.swift */; };
+		2DD164662BE1294200855822 /* BaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164652BE1294200855822 /* BaseEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		2DD164382BE11BE900855822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD1643A2BE11BE900855822 /* CleanSwiftWithRouter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanSwiftWithRouter.entitlements; sourceTree = "<group>"; };
 		2DD1643C2BE11BE900855822 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DD164532BE123D000855822 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		2DD164552BE1249000855822 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
+		2DD164572BE1249E00855822 /* NewsUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUsecase.swift; sourceTree = "<group>"; };
+		2DD164592BE1254200855822 /* NewsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEntity.swift; sourceTree = "<group>"; };
+		2DD1645B2BE1255E00855822 /* NewsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsEndpoint.swift; sourceTree = "<group>"; };
+		2DD1645D2BE1258700855822 /* NewsListRepoImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListRepoImp.swift; sourceTree = "<group>"; };
+		2DD1645F2BE1259100855822 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		2DD164612BE125A800855822 /* NewsRespositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRespositoryProtocol.swift; sourceTree = "<group>"; };
+		2DD164632BE125C900855822 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		2DD164652BE1294200855822 /* BaseEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,8 @@
 		2DD164312BE11BE800855822 /* CleanSwiftWithRouter */ = {
 			isa = PBXGroup;
 			children = (
+				2DD164442BE120D700855822 /* Features */,
+				2DD164432BE120D100855822 /* Core */,
 				2DD164322BE11BE800855822 /* CleanSwiftWithRouterApp.swift */,
 				2DD164342BE11BE800855822 /* ContentView.swift */,
 				2DD164362BE11BE800855822 /* Item.swift */,
@@ -70,6 +92,142 @@
 				2DD1643C2BE11BE900855822 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DD164432BE120D100855822 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164492BE1210600855822 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2DD164442BE120D700855822 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164452BE120E500855822 /* NewsList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2DD164452BE120E500855822 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1644A2BE1211600855822 /* Router */,
+				2DD164482BE120FA00855822 /* Presentation */,
+				2DD164472BE120F500855822 /* Domain */,
+				2DD164462BE120ED00855822 /* Data */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		2DD164462BE120ED00855822 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1644D2BE1213700855822 /* Datasource */,
+				2DD1644C2BE1212800855822 /* Repository */,
+				2DD1644B2BE1212100855822 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2DD164472BE120F500855822 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164502BE1236100855822 /* Respository */,
+				2DD1644F2BE1233C00855822 /* Usecases */,
+				2DD1644E2BE1233500855822 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2DD164482BE120FA00855822 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164522BE1237700855822 /* ViewModels */,
+				2DD164512BE1237000855822 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2DD164492BE1210600855822 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164632BE125C900855822 /* NetworkClient.swift */,
+				2DD164652BE1294200855822 /* BaseEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2DD1644A2BE1211600855822 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DD1644B2BE1212100855822 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1645F2BE1259100855822 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2DD1644C2BE1212800855822 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1645D2BE1258700855822 /* NewsListRepoImp.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2DD1644D2BE1213700855822 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1645B2BE1255E00855822 /* NewsEndpoint.swift */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		2DD1644E2BE1233500855822 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164592BE1254200855822 /* NewsEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		2DD1644F2BE1233C00855822 /* Usecases */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164572BE1249E00855822 /* NewsUsecase.swift */,
+			);
+			path = Usecases;
+			sourceTree = "<group>";
+		};
+		2DD164502BE1236100855822 /* Respository */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164612BE125A800855822 /* NewsRespositoryProtocol.swift */,
+			);
+			path = Respository;
+			sourceTree = "<group>";
+		};
+		2DD164512BE1237000855822 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164532BE123D000855822 /* NewsListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DD164522BE1237700855822 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2DD164552BE1249000855822 /* NewsListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD1645A2BE1254200855822 /* NewsEntity.swift in Sources */,
+				2DD1645E2BE1258700855822 /* NewsListRepoImp.swift in Sources */,
+				2DD164582BE1249E00855822 /* NewsUsecase.swift in Sources */,
+				2DD164662BE1294200855822 /* BaseEndpoint.swift in Sources */,
 				2DD164352BE11BE800855822 /* ContentView.swift in Sources */,
+				2DD164542BE123D000855822 /* NewsListView.swift in Sources */,
+				2DD164562BE1249000855822 /* NewsListViewModel.swift in Sources */,
+				2DD164622BE125A800855822 /* NewsRespositoryProtocol.swift in Sources */,
 				2DD164372BE11BE800855822 /* Item.swift in Sources */,
 				2DD164332BE11BE800855822 /* CleanSwiftWithRouterApp.swift in Sources */,
+				2DD164602BE1259100855822 /* News.swift in Sources */,
+				2DD164642BE125C900855822 /* NetworkClient.swift in Sources */,
+				2DD1645C2BE1255E00855822 /* NewsEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -258,6 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -288,7 +458,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -326,7 +496,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
