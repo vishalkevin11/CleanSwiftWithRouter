@@ -12,9 +12,21 @@ struct NewsListView: View {
     
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(newsListViewModel.newsList, id: \.id) { newEntity in
-                    Text(newEntity.title ?? "--")
+            ZStack {
+                switch newsListViewModel.newListResultState {
+                case .loading:
+                    ProgressView()
+                case .error(let message):
+                    Text(message)
+                        .foregroundStyle(.red)
+                case .results(let newsList ):
+                    List {
+                        ForEach(newsList, id: \.id) { newEntity in
+                            Text(newEntity.title ?? "--")
+                        }
+                    }
+                case .none:
+                    Text("Welcome !")
                 }
             }
         }

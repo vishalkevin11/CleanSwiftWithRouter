@@ -21,6 +21,6 @@ class NewsEndpoint: BaseEndpoint {
     }
     
      var path: String? {
-        return "https://newsapi.org/v2/everything?apiKey=6b42d1b4f6fd44b1bafcd16742904f45&q=apple&pageSize=2"
+        return "https://newsapi.org/v2/everything?apiKey=6b42d1b4f6fd44b1bafcd16742904f45&q=apple&pageSize=5"
     }
 }
