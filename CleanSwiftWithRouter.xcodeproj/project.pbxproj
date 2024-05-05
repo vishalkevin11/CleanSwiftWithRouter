@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DA4CCD12BE3F96600F67064 /* NewsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA4CCD02BE3F96600F67064 /* NewsRouter.swift */; };
 		2DD164332BE11BE800855822 /* CleanSwiftWithRouterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164322BE11BE800855822 /* CleanSwiftWithRouterApp.swift */; };
 		2DD164352BE11BE800855822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164342BE11BE800855822 /* ContentView.swift */; };
 		2DD164372BE11BE800855822 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164362BE11BE800855822 /* Item.swift */; };
@@ -25,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA4CCD02BE3F96600F67064 /* NewsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRouter.swift; sourceTree = "<group>"; };
+		2DA4CCF32BE4A8BA00F67064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2DA4CCF42BE4AA0700F67064 /* CleanSwiftWithRouterRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CleanSwiftWithRouterRelease.entitlements; sourceTree = "<group>"; };
 		2DD1642F2BE11BE800855822 /* CleanSwiftWithRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftWithRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD164322BE11BE800855822 /* CleanSwiftWithRouterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftWithRouterApp.swift; sourceTree = "<group>"; };
 		2DD164342BE11BE800855822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		2DD164312BE11BE800855822 /* CleanSwiftWithRouter */ = {
 			isa = PBXGroup;
 			children = (
+				2DA4CCF42BE4AA0700F67064 /* CleanSwiftWithRouterRelease.entitlements */,
+				2DA4CCF32BE4A8BA00F67064 /* Info.plist */,
 				2DD164442BE120D700855822 /* Features */,
 				2DD164432BE120D100855822 /* Core */,
 				2DD164322BE11BE800855822 /* CleanSwiftWithRouterApp.swift */,
@@ -162,6 +168,7 @@
 		2DD1644A2BE1211600855822 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				2DA4CCD02BE3F96600F67064 /* NewsRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -307,6 +314,7 @@
 				2DD164352BE11BE800855822 /* ContentView.swift in Sources */,
 				2DD164542BE123D000855822 /* NewsListView.swift in Sources */,
 				2DD164562BE1249000855822 /* NewsListViewModel.swift in Sources */,
+				2DA4CCD12BE3F96600F67064 /* NewsRouter.swift in Sources */,
 				2DD164622BE125A800855822 /* NewsRespositoryProtocol.swift in Sources */,
 				2DD164372BE11BE800855822 /* Item.swift in Sources */,
 				2DD164332BE11BE800855822 /* CleanSwiftWithRouterApp.swift in Sources */,
@@ -448,6 +456,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CleanSwiftWithRouter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -478,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CleanSwiftWithRouter/CleanSwiftWithRouter.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CleanSwiftWithRouter/CleanSwiftWithRouterRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CleanSwiftWithRouter/Preview Content\"";
@@ -486,6 +495,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CleanSwiftWithRouter/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

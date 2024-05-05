@@ -22,12 +22,25 @@ final class NewsListViewModel: ObservableObject {
 //    @Published var isLoading: Bool = false
 //    @Published var errorMessage = ""
     
-    @Published var newListResultState: NewListResultState = .none
+    @Published private(set) var newListResultState: NewListResultState = .none
     
-    let newsUsecase = NewsUsecase(newsRespository: NewsListRepoImp())
+    private var newsUsecase: NewsUsecase?
     private var cancellable: AnyCancellable?
     
+    
+    
+    init(newsUsecase: NewsUsecase?) {
+        self.newsUsecase = newsUsecase
+    }
+    
+    
     func fetcNews() {
+        
+        guard let newsUsecase = newsUsecase else {
+            self.newListResultState = .error("Invalid UseCase")
+            return
+        }
+        
         DispatchQueue.main.async { [weak self] in
             self?.newListResultState = .loading
         }

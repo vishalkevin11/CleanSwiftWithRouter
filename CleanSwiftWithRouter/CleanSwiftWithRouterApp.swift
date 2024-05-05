@@ -10,6 +10,8 @@ import SwiftData
 
 @main
 struct CleanSwiftWithRouterApp: App {
+    
+    
 //    var sharedModelContainer: ModelContainer = {
 //        let schema = Schema([
 //            Item.self,

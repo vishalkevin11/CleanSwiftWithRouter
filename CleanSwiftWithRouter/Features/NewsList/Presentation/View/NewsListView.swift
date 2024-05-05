@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct NewsListView: View {
-    @StateObject private var newsListViewModel = NewsListViewModel()
+    @StateObject private var newsListViewModel = NewsListViewModel(newsUsecase: NewsUsecase(newsRespository: NewsListRepoImp()))
     
+//    init(newsListViewModel: NewsListViewModel) {
+//        _newsListViewModel = StateObject(wrappedValue: newsListViewModel)
+//    }
+//    
     var body: some View {
         NavigationStack {
             ZStack {
@@ -30,9 +34,9 @@ struct NewsListView: View {
                 }
             }
         }
-        .task {
-            newsListViewModel.fetcNews()
-        }
+//        .task {
+//            newsListViewModel.fetcNews()
+//        }
     }
 }
 
