@@ -23,5 +23,5 @@ jobs:
           pod install
       - name: Test # Run tests for the BBL project
         run: |
-          cd ios  # Position yourself inside the file that contains your CleanSwiftWithRouter.xcworkspace file
+         # cd ios  # Position yourself inside the file that contains your CleanSwiftWithRouter.xcworkspace file
           xcodebuild -workspace CleanSwiftWithRouter.xcworkspace -scheme BBL -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12' test
