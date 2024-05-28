@@ -32,6 +32,14 @@ struct NewsListView: View {
                 case .none:
                     Text("Welcome !")
                 }
+                
+                Button {
+                    newsListViewModel.taskeWithBarrier()
+                } label: {
+                    
+                    Text("TEST SEMAPHORE")
+                }
+
             }
         }
 //        .task {

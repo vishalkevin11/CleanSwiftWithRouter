@@ -38,3 +38,6 @@ struct NewsListRepoImp: NewsRespositoryProtocol {
         .eraseToAnyPublisher()
     }
 }
+
+
+
