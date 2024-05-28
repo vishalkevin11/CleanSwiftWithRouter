@@ -1,4 +1,4 @@
-name: NAME HERE workflow # Workflow name
+name: build workflow # Workflow name
 run-name: Run by @${{ github.actor }}
 
 on:
