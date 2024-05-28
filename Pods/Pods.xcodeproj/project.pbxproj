@@ -8,55 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		0900B28DBD2F2567D0389DC36362745F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1E4E62EFDB4F74280288729176294D6C /* Pods-CleanSwiftWithRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C0E6F8772A1941D062B8327FE9D2C24 /* Pods-CleanSwiftWithRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EAB0590C2D7A0F948BE19520D84BD37 /* Pods-CleanSwiftWithRouterTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0975629A60D6F94FCF9525380B0EF7A9 /* Pods-CleanSwiftWithRouterTests-dummy.m */; };
-		90C067315EB88603F975348C65F92280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A462DF909B8F464209FC34A62F570732 /* Pods-CleanSwiftWithRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A34769D3EFCE63CDDCFBCC56D84512 /* Pods-CleanSwiftWithRouter-dummy.m */; };
-		D0F3A3D58AFDF9AB536AB23ED3A60D94 /* Pods-CleanSwiftWithRouterTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FBFBA517C2744902EFC859BB7D57FE /* Pods-CleanSwiftWithRouterTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E4E62EFDB4F74280288729176294D6C /* Pods-CleanSwiftWithRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E68F2C3DA8503FEF23B99C5DD7E14A /* Pods-CleanSwiftWithRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A462DF909B8F464209FC34A62F570732 /* Pods-CleanSwiftWithRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3C42C0252664AD9E63BB6E1A1FB16 /* Pods-CleanSwiftWithRouter-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		320E0A276D3107B3A956B70BC3F987CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 460B7AB10062E596E310912823F7ACDF;
-			remoteInfo = "Pods-CleanSwiftWithRouter";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		04D7C5B839BDA4CC960ACE49EB5734B6 /* Pods-CleanSwiftWithRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouter-Info.plist"; sourceTree = "<group>"; };
-		04FBFBA517C2744902EFC859BB7D57FE /* Pods-CleanSwiftWithRouterTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanSwiftWithRouterTests-umbrella.h"; sourceTree = "<group>"; };
-		083E0BC7CE72AD66F9ECE8E783A764B6 /* Pods-CleanSwiftWithRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanSwiftWithRouter.modulemap"; sourceTree = "<group>"; };
-		0975629A60D6F94FCF9525380B0EF7A9 /* Pods-CleanSwiftWithRouterTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanSwiftWithRouterTests-dummy.m"; sourceTree = "<group>"; };
-		205929367E5F03CE51418044AF4A5D60 /* Pods-CleanSwiftWithRouterTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouterTests-Info.plist"; sourceTree = "<group>"; };
-		32A34769D3EFCE63CDDCFBCC56D84512 /* Pods-CleanSwiftWithRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanSwiftWithRouter-dummy.m"; sourceTree = "<group>"; };
-		3761271E1DA20AB61C25A0647A3B8135 /* Pods-CleanSwiftWithRouterTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanSwiftWithRouterTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4E2385A7C0B8FD401F75980439006BDF /* Pods-CleanSwiftWithRouterTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanSwiftWithRouterTests.modulemap"; sourceTree = "<group>"; };
-		5C0E6F8772A1941D062B8327FE9D2C24 /* Pods-CleanSwiftWithRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanSwiftWithRouter-umbrella.h"; sourceTree = "<group>"; };
+		1D2283813460144BDE453BEC00FCCAD8 /* Pods-CleanSwiftWithRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		32B3C42C0252664AD9E63BB6E1A1FB16 /* Pods-CleanSwiftWithRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanSwiftWithRouter-dummy.m"; sourceTree = "<group>"; };
+		36840980DB8717EB2DECE3CF2B2764FB /* Pods-CleanSwiftWithRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouter-Info.plist"; sourceTree = "<group>"; };
+		56795846E4456D5C14ED1E4773AB2234 /* Pods-CleanSwiftWithRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouter.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		732EC20F6669A8CA14B838F4EF6E3C6E /* Pods-CleanSwiftWithRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouter.debug.xcconfig"; sourceTree = "<group>"; };
-		8127AEBDA329FD988FA292408A1B9A73 /* Pods-CleanSwiftWithRouterTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouterTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E28C1117099C19188AC38718180AB81 /* Pods-CleanSwiftWithRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanSwiftWithRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A36639BA16942DF7B6CB69FFA8BC1462 /* Pods-CleanSwiftWithRouterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouterTests.release.xcconfig"; sourceTree = "<group>"; };
-		AD36D3FE230AB53EDE55668082001CE2 /* Pods-CleanSwiftWithRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanSwiftWithRouter-acknowledgements.plist"; sourceTree = "<group>"; };
 		B71FF2F6568345A219D1ABF0732686CE /* Pods-CleanSwiftWithRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CleanSwiftWithRouter"; path = Pods_CleanSwiftWithRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D18D8119BB02F5280D27C270F00F8DAD /* Pods-CleanSwiftWithRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanSwiftWithRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D595BFBBFB9A08BEC7175B5397A911AE /* Pods-CleanSwiftWithRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouter.release.xcconfig"; sourceTree = "<group>"; };
-		D73B952356F3F2748FAF99231D146328 /* Pods-CleanSwiftWithRouterTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CleanSwiftWithRouterTests"; path = Pods_CleanSwiftWithRouterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCB1ADDBC3FD4CD6FCC6326D1A5B7279 /* Pods-CleanSwiftWithRouterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7E68F2C3DA8503FEF23B99C5DD7E14A /* Pods-CleanSwiftWithRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanSwiftWithRouter-umbrella.h"; sourceTree = "<group>"; };
+		C5C1EEAA401579556FD317C8D61C336B /* Pods-CleanSwiftWithRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanSwiftWithRouter.modulemap"; sourceTree = "<group>"; };
+		E1457B8652CCE9B68F05BA0B7DA88BA0 /* Pods-CleanSwiftWithRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanSwiftWithRouter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A211567825EF74AC6C470EDBAFAE3D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90C067315EB88603F975348C65F92280 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FD971494E729763028EFCD5AE9BD9568 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,20 +38,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4BBE17A0999B849A6A0088F1D8472CEC /* Pods-CleanSwiftWithRouter */ = {
+		25A76976A7E9698D382E0C8A6B844455 /* Pods-CleanSwiftWithRouter */ = {
 			isa = PBXGroup;
 			children = (
-				083E0BC7CE72AD66F9ECE8E783A764B6 /* Pods-CleanSwiftWithRouter.modulemap */,
-				D18D8119BB02F5280D27C270F00F8DAD /* Pods-CleanSwiftWithRouter-acknowledgements.markdown */,
-				AD36D3FE230AB53EDE55668082001CE2 /* Pods-CleanSwiftWithRouter-acknowledgements.plist */,
-				32A34769D3EFCE63CDDCFBCC56D84512 /* Pods-CleanSwiftWithRouter-dummy.m */,
-				04D7C5B839BDA4CC960ACE49EB5734B6 /* Pods-CleanSwiftWithRouter-Info.plist */,
-				5C0E6F8772A1941D062B8327FE9D2C24 /* Pods-CleanSwiftWithRouter-umbrella.h */,
-				732EC20F6669A8CA14B838F4EF6E3C6E /* Pods-CleanSwiftWithRouter.debug.xcconfig */,
-				D595BFBBFB9A08BEC7175B5397A911AE /* Pods-CleanSwiftWithRouter.release.xcconfig */,
+				C5C1EEAA401579556FD317C8D61C336B /* Pods-CleanSwiftWithRouter.modulemap */,
+				7E28C1117099C19188AC38718180AB81 /* Pods-CleanSwiftWithRouter-acknowledgements.markdown */,
+				1D2283813460144BDE453BEC00FCCAD8 /* Pods-CleanSwiftWithRouter-acknowledgements.plist */,
+				32B3C42C0252664AD9E63BB6E1A1FB16 /* Pods-CleanSwiftWithRouter-dummy.m */,
+				36840980DB8717EB2DECE3CF2B2764FB /* Pods-CleanSwiftWithRouter-Info.plist */,
+				B7E68F2C3DA8503FEF23B99C5DD7E14A /* Pods-CleanSwiftWithRouter-umbrella.h */,
+				56795846E4456D5C14ED1E4773AB2234 /* Pods-CleanSwiftWithRouter.debug.xcconfig */,
+				E1457B8652CCE9B68F05BA0B7DA88BA0 /* Pods-CleanSwiftWithRouter.release.xcconfig */,
 			);
 			name = "Pods-CleanSwiftWithRouter";
 			path = "Target Support Files/Pods-CleanSwiftWithRouter";
+			sourceTree = "<group>";
+		};
+		3653A9FA74A8A32B4B95F0D2B032E7AE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A76976A7E9698D382E0C8A6B844455 /* Pods-CleanSwiftWithRouter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47AE635E6A9E4704DB8D0E1F415CD9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71FF2F6568345A219D1ABF0732686CE /* Pods-CleanSwiftWithRouter */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -92,47 +78,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		73B2BB08F7F35FAA41BE813B3F66E7F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B71FF2F6568345A219D1ABF0732686CE /* Pods-CleanSwiftWithRouter */,
-				D73B952356F3F2748FAF99231D146328 /* Pods-CleanSwiftWithRouterTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8B0B42C9C50D2B53949D6D7715BF618E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4BBE17A0999B849A6A0088F1D8472CEC /* Pods-CleanSwiftWithRouter */,
-				8DC59680CD51DFA21ED583D0F7B37E28 /* Pods-CleanSwiftWithRouterTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8DC59680CD51DFA21ED583D0F7B37E28 /* Pods-CleanSwiftWithRouterTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E2385A7C0B8FD401F75980439006BDF /* Pods-CleanSwiftWithRouterTests.modulemap */,
-				3761271E1DA20AB61C25A0647A3B8135 /* Pods-CleanSwiftWithRouterTests-acknowledgements.markdown */,
-				8127AEBDA329FD988FA292408A1B9A73 /* Pods-CleanSwiftWithRouterTests-acknowledgements.plist */,
-				0975629A60D6F94FCF9525380B0EF7A9 /* Pods-CleanSwiftWithRouterTests-dummy.m */,
-				205929367E5F03CE51418044AF4A5D60 /* Pods-CleanSwiftWithRouterTests-Info.plist */,
-				04FBFBA517C2744902EFC859BB7D57FE /* Pods-CleanSwiftWithRouterTests-umbrella.h */,
-				FCB1ADDBC3FD4CD6FCC6326D1A5B7279 /* Pods-CleanSwiftWithRouterTests.debug.xcconfig */,
-				A36639BA16942DF7B6CB69FFA8BC1462 /* Pods-CleanSwiftWithRouterTests.release.xcconfig */,
-			);
-			name = "Pods-CleanSwiftWithRouterTests";
-			path = "Target Support Files/Pods-CleanSwiftWithRouterTests";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				73B2BB08F7F35FAA41BE813B3F66E7F2 /* Products */,
-				8B0B42C9C50D2B53949D6D7715BF618E /* Targets Support Files */,
+				47AE635E6A9E4704DB8D0E1F415CD9E4 /* Products */,
+				3653A9FA74A8A32B4B95F0D2B032E7AE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,14 +104,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E4E62EFDB4F74280288729176294D6C /* Pods-CleanSwiftWithRouter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62C8CD3B17898F21AADDDC7026E0D311 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0F3A3D58AFDF9AB536AB23ED3A60D94 /* Pods-CleanSwiftWithRouterTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,25 +128,6 @@
 			productReference = B71FF2F6568345A219D1ABF0732686CE /* Pods-CleanSwiftWithRouter */;
 			productType = "com.apple.product-type.framework";
 		};
-		A2F2AD2ED1D75D5EB7111854D7BC9C94 /* Pods-CleanSwiftWithRouterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B7A00D869A794C83BC3D60886F50B56 /* Build configuration list for PBXNativeTarget "Pods-CleanSwiftWithRouterTests" */;
-			buildPhases = (
-				62C8CD3B17898F21AADDDC7026E0D311 /* Headers */,
-				24835960735C40A0464E6DA2895B898A /* Sources */,
-				9A211567825EF74AC6C470EDBAFAE3D3 /* Frameworks */,
-				37F1178E4DEF20DD678FB0BDCF4940DB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				09571F8A0866824E1C81CD956E9B7CF1 /* PBXTargetDependency */,
-			);
-			name = "Pods-CleanSwiftWithRouterTests";
-			productName = Pods_CleanSwiftWithRouterTests;
-			productReference = D73B952356F3F2748FAF99231D146328 /* Pods-CleanSwiftWithRouterTests */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,24 +146,16 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 73B2BB08F7F35FAA41BE813B3F66E7F2 /* Products */;
+			productRefGroup = 47AE635E6A9E4704DB8D0E1F415CD9E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				460B7AB10062E596E310912823F7ACDF /* Pods-CleanSwiftWithRouter */,
-				A2F2AD2ED1D75D5EB7111854D7BC9C94 /* Pods-CleanSwiftWithRouterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37F1178E4DEF20DD678FB0BDCF4940DB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		98E87C04854A55689FF633A685657FDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,14 +166,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24835960735C40A0464E6DA2895B898A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EAB0590C2D7A0F948BE19520D84BD37 /* Pods-CleanSwiftWithRouterTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DC5FCA6E172ECCEB92F1E9866AE99EAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,15 +175,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		09571F8A0866824E1C81CD956E9B7CF1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-CleanSwiftWithRouter";
-			target = 460B7AB10062E596E310912823F7ACDF /* Pods-CleanSwiftWithRouter */;
-			targetProxy = 320E0A276D3107B3A956B70BC3F987CA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
@@ -405,46 +305,9 @@
 			};
 			name = Release;
 		};
-		8D4E47F6DDC120B9FFF42EE2F2158CF2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCB1ADDBC3FD4CD6FCC6326D1A5B7279 /* Pods-CleanSwiftWithRouterTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CleanSwiftWithRouterTests/Pods-CleanSwiftWithRouterTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CleanSwiftWithRouterTests/Pods-CleanSwiftWithRouterTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E6DD2E90C10D74CD6E1E1F0BE86D3296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D595BFBBFB9A08BEC7175B5397A911AE /* Pods-CleanSwiftWithRouter.release.xcconfig */;
+			baseConfigurationReference = E1457B8652CCE9B68F05BA0B7DA88BA0 /* Pods-CleanSwiftWithRouter.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -480,47 +343,9 @@
 			};
 			name = Release;
 		};
-		F1A515B573A887951214697CCFBEB348 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36639BA16942DF7B6CB69FFA8BC1462 /* Pods-CleanSwiftWithRouterTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CleanSwiftWithRouterTests/Pods-CleanSwiftWithRouterTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CleanSwiftWithRouterTests/Pods-CleanSwiftWithRouterTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F9A41135A0F5D668B2B487C937F88A06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 732EC20F6669A8CA14B838F4EF6E3C6E /* Pods-CleanSwiftWithRouter.debug.xcconfig */;
+			baseConfigurationReference = 56795846E4456D5C14ED1E4773AB2234 /* Pods-CleanSwiftWithRouter.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -558,15 +383,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B7A00D869A794C83BC3D60886F50B56 /* Build configuration list for PBXNativeTarget "Pods-CleanSwiftWithRouterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8D4E47F6DDC120B9FFF42EE2F2158CF2 /* Debug */,
-				F1A515B573A887951214697CCFBEB348 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -7,9 +7,6 @@ target 'CleanSwiftWithRouter' do
 
   # Pods for CleanSwiftWithRouter
 
-  target 'CleanSwiftWithRouterTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+
 
 end
