@@ -108,10 +108,6 @@ final class NewsListViewModel: ObservableObject {
     init(newsUsecase: NewsUsecase?) {
         self.newsUsecase = newsUsecase
         print("\(lowerstring)")
-        
-        
-
-       
     }
     
     
