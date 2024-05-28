@@ -51,7 +51,7 @@ platform :ios do
  		)
 		upload_to_testflight(
 			  username: "kevinvishal347@gmail.com", # Your TestFlight account email, for example: 
-			  apple_id: "PutYourAppleId!!!", # Your app's appleId, you can find it under App Information->General Information->Apple ID for example: 6503280685
+			  apple_id: "6503280685", # Your app's appleId, you can find it under App Information->General Information->Apple ID for example: 6503280685
 			  skip_submission: true,
 			  skip_waiting_for_build_processing: true,
 			  itc_provider: "UQN7GH636G" # Team Id, for example: KLD9S9KY48
