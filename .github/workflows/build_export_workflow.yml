@@ -27,7 +27,7 @@ jobs:
           # install project dependencies
           # cd ios # Position yourself inside the file that contains your podfile
           pod install
-          cd ..
+          # cd ..
           # add a distribution certificate to the keychain
           ./.github/scripts/set_certificates.sh
       - name: Run fastlane
