@@ -23,7 +23,20 @@
 		2DD164622BE125A800855822 /* NewsRespositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164612BE125A800855822 /* NewsRespositoryProtocol.swift */; };
 		2DD164642BE125C900855822 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164632BE125C900855822 /* NetworkClient.swift */; };
 		2DD164662BE1294200855822 /* BaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD164652BE1294200855822 /* BaseEndpoint.swift */; };
+		99F318382BE7C5C2004260B3 /* CleanSwiftWithRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F318372BE7C5C2004260B3 /* CleanSwiftWithRouterTests.swift */; };
+		99F3183F2BE7C609004260B3 /* NewsListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F3183E2BE7C609004260B3 /* NewsListViewModelTests.swift */; };
+		99F318412BE7C65E004260B3 /* NewsListRepoMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F318402BE7C65E004260B3 /* NewsListRepoMock.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99F318392BE7C5C2004260B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DD164272BE11BE800855822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DD1642E2BE11BE800855822;
+			remoteInfo = CleanSwiftWithRouter;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2DA4CCD02BE3F96600F67064 /* NewsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRouter.swift; sourceTree = "<group>"; };
@@ -46,10 +59,21 @@
 		2DD164612BE125A800855822 /* NewsRespositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRespositoryProtocol.swift; sourceTree = "<group>"; };
 		2DD164632BE125C900855822 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		2DD164652BE1294200855822 /* BaseEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEndpoint.swift; sourceTree = "<group>"; };
+		99F318352BE7C5C2004260B3 /* CleanSwiftWithRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftWithRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F318372BE7C5C2004260B3 /* CleanSwiftWithRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSwiftWithRouterTests.swift; sourceTree = "<group>"; };
+		99F3183E2BE7C609004260B3 /* NewsListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModelTests.swift; sourceTree = "<group>"; };
+		99F318402BE7C65E004260B3 /* NewsListRepoMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListRepoMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2DD1642C2BE11BE800855822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F318322BE7C5C2004260B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2DD164312BE11BE800855822 /* CleanSwiftWithRouter */,
+				99F318362BE7C5C2004260B3 /* CleanSwiftWithRouterTests */,
 				2DD164302BE11BE800855822 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				2DD1642F2BE11BE800855822 /* CleanSwiftWithRouter.app */,
+				99F318352BE7C5C2004260B3 /* CleanSwiftWithRouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,6 +263,16 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		99F318362BE7C5C2004260B3 /* CleanSwiftWithRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F318372BE7C5C2004260B3 /* CleanSwiftWithRouterTests.swift */,
+				99F3183E2BE7C609004260B3 /* NewsListViewModelTests.swift */,
+				99F318402BE7C65E004260B3 /* NewsListRepoMock.swift */,
+			);
+			path = CleanSwiftWithRouterTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +293,24 @@
 			productReference = 2DD1642F2BE11BE800855822 /* CleanSwiftWithRouter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		99F318342BE7C5C2004260B3 /* CleanSwiftWithRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99F3183D2BE7C5C2004260B3 /* Build configuration list for PBXNativeTarget "CleanSwiftWithRouterTests" */;
+			buildPhases = (
+				99F318312BE7C5C2004260B3 /* Sources */,
+				99F318322BE7C5C2004260B3 /* Frameworks */,
+				99F318332BE7C5C2004260B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99F3183A2BE7C5C2004260B3 /* PBXTargetDependency */,
+			);
+			name = CleanSwiftWithRouterTests;
+			productName = CleanSwiftWithRouterTests;
+			productReference = 99F318352BE7C5C2004260B3 /* CleanSwiftWithRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -269,6 +323,10 @@
 				TargetAttributes = {
 					2DD1642E2BE11BE800855822 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					99F318342BE7C5C2004260B3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 2DD1642E2BE11BE800855822;
 					};
 				};
 			};
@@ -286,6 +344,7 @@
 			projectRoot = "";
 			targets = (
 				2DD1642E2BE11BE800855822 /* CleanSwiftWithRouter */,
+				99F318342BE7C5C2004260B3 /* CleanSwiftWithRouterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +356,13 @@
 			files = (
 				2DD1643D2BE11BE900855822 /* Preview Assets.xcassets in Resources */,
 				2DD164392BE11BE900855822 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F318332BE7C5C2004260B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,7 +390,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		99F318312BE7C5C2004260B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99F318382BE7C5C2004260B3 /* CleanSwiftWithRouterTests.swift in Sources */,
+				99F3183F2BE7C609004260B3 /* NewsListViewModelTests.swift in Sources */,
+				99F318412BE7C65E004260B3 /* NewsListRepoMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99F3183A2BE7C5C2004260B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DD1642E2BE11BE800855822 /* CleanSwiftWithRouter */;
+			targetProxy = 99F318392BE7C5C2004260B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2DD1643E2BE11BE900855822 /* Debug */ = {
@@ -521,6 +605,47 @@
 			};
 			name = Release;
 		};
+		99F3183B2BE7C5C2004260B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQN7GH636G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.CleanSwiftWithRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftWithRouter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanSwiftWithRouter";
+			};
+			name = Debug;
+		};
+		99F3183C2BE7C5C2004260B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UQN7GH636G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.CleanSwiftWithRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftWithRouter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CleanSwiftWithRouter";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -538,6 +663,15 @@
 			buildConfigurations = (
 				2DD164412BE11BE900855822 /* Debug */,
 				2DD164422BE11BE900855822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99F3183D2BE7C5C2004260B3 /* Build configuration list for PBXNativeTarget "CleanSwiftWithRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F3183B2BE7C5C2004260B3 /* Debug */,
+				99F3183C2BE7C5C2004260B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
